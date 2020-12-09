@@ -12,7 +12,7 @@ $id = new Indonesian(dirname(__FILE__) . '/data');
 // Daftar provinsi
 print_r($id->getProvince());
 
-// Daftar Kota di Provinsi Banten
+// Daftar Kota/Kab di Provinsi Banten
 print_r($id->getCity(36));
 
 // Daftar Kecamatan di Kab Tangerang - Banten
